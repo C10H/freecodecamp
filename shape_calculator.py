@@ -1,6 +1,8 @@
 class Rectangle:
     def __init__(self,width,height):
+        '''
         # 使用width和height属性对Rectangle对象进行初始化
+        '''
         self.width = width
         self.height = height
     def set_width(self,width):
@@ -31,7 +33,9 @@ class Rectangle:
 
 class Square(Rectangle):
     def __init__(self,side_length):
+        '''
         # 使用side_length属性对Rectangle对象进行初始化
+        '''
         self.width = side_length
         self.height = side_length
     def set_side(self,side_length):
